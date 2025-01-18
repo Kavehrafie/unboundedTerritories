@@ -4,3 +4,5 @@ figures/
 *.mk4
 *.mpg
 
+.obsidian/
+
