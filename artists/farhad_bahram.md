@@ -20,4 +20,3 @@ both the observer and the observed, and confronting the tension between personal
 freedom and spatial limitations.
 
 # Sample Work
-![[20240814_130600.mp4]]
