@@ -1,0 +1,13 @@
+name: Trigger Astro Rebuild
+
+on:
+  push:
+    branches: [main]
+    paths: ['**.md']
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Vercel Deploy
+        run: curl -X POST ${{ secrets.VERCEL_DEPLOY_HOOK }}
